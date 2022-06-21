@@ -6,8 +6,8 @@ import time
 
 
 # account credentials
-username = "dalucarickroll"
-password = "Morache1."
+username = "username"
+password = "pass"
 
 # get the access token
 auth_res = requests.post("https://api-ssl.bitly.com/oauth/access_token", auth=(username, password))
